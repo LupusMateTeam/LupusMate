@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cs680.lupusmate"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.InitActivitySense"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Welcome"
+            android:label="@string/title_activity_welcome" >
+        </activity>
+        <activity
+            android:name=".activity.InitProfile"
+            android:label="@string/title_activity_init_profile" >
+        </activity>
+        <activity
+            android:name=".activity.InitMoodAlert"
+            android:label="@string/title_activity_init_mood_alert" >
+        </activity>
+        <activity
+            android:name=".activity.InitMedReminder"
+            android:label="@string/title_activity_init_med_reminder" >
+        </activity>
+        <activity
+            android:name=".activity.AddMedicine"
+            android:label="@string/title_activity_add_medicine" >
+        </activity>
+        <activity
+            android:name=".activity.Home"
+            android:label="@string/title_activity_home" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.PopupMoodAlert"
+            android:label="@string/title_activity_popup_mood_alert" >
+        </activity>
+        <activity
+            android:name=".activity.PopupMedReminder"
+            android:label="@string/title_activity_popup_med_reminder" >
+        </activity>
+        <activity
+            android:name=".activity.SettingMoodAlert"
+            android:label="@string/title_activity_setting_mood_alert" >
+        </activity>
+        <activity
+            android:name=".activity.SettingActivitySense"
+            android:label="@string/title_activity_setting_activity_sense" >
+        </activity>
+        <activity
+            android:name=".activity.SettingMedReminder"
+            android:label="@string/title_activity_setting_med_reminder" >
+        </activity>
+        <activity
+            android:name=".activity.EditProfile"
+            android:label="@string/title_activity_edit_profile" >
+        </activity>
+        <activity
+            android:name=".activity.ShareInfo"
+            android:label="@string/title_activity_share_info" >
+        </activity>
+        <activity
+            android:name=".activity.Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.cs680.lupusmate.activity.Help"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name="com.cs680.lupusmate.activity.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>
